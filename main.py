@@ -25,10 +25,11 @@ while True:
         res = game_2048.get_state(grid)
         print(res)
 
+        # continue to press the command
         if res == 'Game Continue':
             game_2048.get_new_2(grid)
 
-        # else break the loop and continue to press the command
+        # else break the loop
         else:
             break
 
